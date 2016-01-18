@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <app.com.augmentedrealitytraining.training.ar.slideshow.TwoWayView
+        android:orientation="vertical"
+        android:id="@+id/horizontalList"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+</LinearLayout>

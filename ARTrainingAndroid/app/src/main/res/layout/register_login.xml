@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#d8d8d8"
+    android:id="@+id/register_container"
+    tools:context="app.com.outlookcolumbus.android.outlook.Signup">
+
+    <ProgressBar
+        android:id="@+id/register_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+       />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="true"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Welcome New User!"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:paddingStart="5dp"
+            android:background="@drawable/register_field_background"
+            android:inputType="text"
+            android:singleLine="true"
+
+            android:layout_marginTop="10dip"/>
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:paddingLeft="5dp"
+            android:background="@drawable/register_field_background"
+            android:inputType="text"
+            android:layout_marginTop="10dip"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/email_signup_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email address"
+            android:paddingLeft="5dp"
+            android:background="@drawable/register_field_background"
+            android:inputType ="textEmailAddress"
+            android:layout_marginTop="10dip"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/password_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter password"
+            android:paddingLeft="5dp"
+            android:background="@drawable/register_field_background"
+            android:inputType ="textPassword"
+            android:layout_marginTop="10dip"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/password_confirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Re-enter password"
+            android:paddingLeft="5dp"
+            android:background="@drawable/register_field_background"
+            android:inputType ="textPassword"
+            android:layout_marginTop="10dip"
+            android:singleLine="true" />
+
+
+        <Button
+            android:id="@+id/new_user_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:textColor="@color/white"
+            android:text="Register"
+            android:background="@drawable/button_background"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/bhavya/android-studio-projects/Capstone/CSE5911/ARTrainingAndroid/ARBaseLib/assets"/></dataSet><dataSet config="release"><source path="/home/bhavya/android-studio-projects/Capstone/CSE5911/ARTrainingAndroid/ARBaseLib/build-types/release/assets"/></dataSet></merger>

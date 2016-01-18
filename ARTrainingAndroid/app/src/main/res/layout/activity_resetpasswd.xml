@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/resetpwd_oldPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter current password"
+        android:paddingLeft="5dp"
+        android:background="@drawable/register_field_background"
+        android:inputType ="textPassword"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/resetpwd_newPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter new password"
+        android:paddingLeft="5dp"
+        android:background="@drawable/register_field_background"
+        android:inputType ="textPassword"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/resetpwd_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter password"
+        android:paddingLeft="5dp"
+        android:background="@drawable/register_field_background"
+        android:inputType ="textPassword"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/resetpwd_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:textColor="@color/white"
+        android:text="Reset"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+include ':app', ':ARBaseLib', ':AndroidGridView', ':MagicCleanLibrary', ':BuildingBlocks', ':ScanLib'

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="Enter your Email : "
+       android:textSize="30px"
+       android:layout_marginTop="40px"
+       />
+
+
+    <EditText
+        android:id="@+id/forgot_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        />
+
+    <Button android:id="@+id/find_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Find Password"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings"
+          android:icon="@drawable/settings"
+          android:title="@string/menuItem_settings"
+          android:titleCondensed="@string/menuItem_settings">
+    </item>
+</menu>
+<!-- From: file:/home/bhavya/android-studio-projects/Capstone/CSE5911/ARTrainingAndroid/ARBaseLib/res/menu/options.xml --><!-- From: file:/home/bhavya/android-studio-projects/Capstone/CSE5911/ARTrainingAndroid/ARBaseLib/build/intermediates/bundles/debug/res/menu/options.xml -->

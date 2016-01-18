@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="app.com.outlookcolumbus.android.outlook.ProfileActivity"
+    >
+    <item android:id="@+id/ProfileSetting"
+        android:title="Settings"
+        android:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/ProfileResetpawd"
+                android:title="Reset Password"
+                android:showAsAction="always"/>
+            <item android:id="@+id/ProfileLogout"
+                android:title="Log Out"
+                android:showAsAction="always"/>
+        </menu>
+    </item>
+
+
+
+</menu>

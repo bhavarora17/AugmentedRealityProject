@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ARBaseLib/ARBaseLib.iml" filepath="$PROJECT_DIR$/ARBaseLib/ARBaseLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ARTrainingAndroid.iml" filepath="$PROJECT_DIR$/ARTrainingAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidGridView/AndroidGridView.iml" filepath="$PROJECT_DIR$/AndroidGridView/AndroidGridView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.iml" filepath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagicCleanLibrary/MagicCleanLibrary.iml" filepath="$PROJECT_DIR$/MagicCleanLibrary/MagicCleanLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScanLib/ScanLib.iml" filepath="$PROJECT_DIR$/ScanLib/ScanLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
